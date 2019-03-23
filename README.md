@@ -9,13 +9,13 @@ $ [sudo] pip install webloc
 ```
 
 #### Functions
-function|description
+function|`__doc__`
 -|-
 `webloc.read(path)`|return webloc url
 `webloc.write(path, url)`|write url to webloc file
 
 #### CLI
-usage|description
+usage|`__doc__`
 -|-
 `python -m webloc [url]`|read/write webloc url
 
