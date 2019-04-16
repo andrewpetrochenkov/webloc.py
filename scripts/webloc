@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+# webloc filename conflicts with syntax highlighting :)
+( . "${BASH_SOURCE[0]%/*}"/.webloc.sh "$@" )

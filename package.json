@@ -1,0 +1,14 @@
+{
+  "name": "webloc",
+  "version": "2019.4.16",
+  "description": "read/write .webloc files",
+  "keywords": [
+    "webloc"
+  ],
+  "homepage": "https://github.com/looking-for-a-job/webloc.py",
+  "license": "Unlicense",
+  "bin": {
+    ".webloc.sh": "./scripts/.webloc.sh",
+    "webloc": "./scripts/webloc"
+  }
+}
