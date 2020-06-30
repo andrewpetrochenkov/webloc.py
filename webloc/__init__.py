@@ -1,11 +1,10 @@
-#!/usr/bin/env python
+__all__ = ['read', 'write']
+
 """read/write webloc url"""
 import os
 import plistlib
-import public
 
 
-@public.add
 def read(path):
     """return webloc url"""
     if hasattr(plistlib, "load"):
@@ -13,7 +12,6 @@ def read(path):
     return plistlib.readPlist(path).get("URL")
 
 
-@public.add
 def write(path, url):
     """write url to webloc file"""
     data = dict(URL=str(url))
